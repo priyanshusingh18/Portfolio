@@ -30,7 +30,7 @@ export const LeftArrow = styled.div`
   left: 32px;
   font-size: 3rem;
 
-  z-index: 10;
+  z-index: 101111;
   cursor: pointer;
   user-select: none;
 `;
@@ -41,7 +41,7 @@ export const RightArrow = styled.div`
   top: 50%;
   right: 32px;
   font-size: 3rem;
-  z-index: 10;
+  z-index: 101111;
   cursor: pointer;
   user-select: none;
 `;

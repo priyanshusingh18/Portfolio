@@ -55,7 +55,6 @@ const Projects = () => {
       <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
-        {/* <section className="slider"> */}
         <LeftArrow onClick={prevSlide}>
           {" "}
           <FaArrowAltCircleLeft />
@@ -68,6 +67,7 @@ const Projects = () => {
         <Slider>
           {projects.map(
             ({ id, image, title, description, tags, source, visit }, index) => {
+              console.log(source, visit);
               return (
                 <CarouselItem
                   index={index}
@@ -81,24 +81,30 @@ const Projects = () => {
                       <Hr />
                     </TitleContent>
                     <CardInfo>{description}</CardInfo>
-                    <div>
-                      <TitleContent>Stack</TitleContent>
-                      <TagList>
-                        {tags.map((tag, i) => (
-                          <Tag key={i}>{tag}</Tag>
-                        ))}
-                      </TagList>
-                    </div>
+
+                    <TitleContent>Stack</TitleContent>
+                    <TagList>
+                      {tags.map((tag, i) => (
+                        <Tag key={i}>{tag}</Tag>
+                      ))}
+                    </TagList>
                     <UtilityList>
-                      <ExternalLinks href={visit}>Code</ExternalLinks>
-                      <ExternalLinks href={source}>Source</ExternalLinks>
+                      <ExternalLinks href={visit}>Visit</ExternalLinks>
+                      <ExternalLinks
+                        href={
+                          source === "Private"
+                            ? " mailto:priyanshusinghverma1809@gmail.com"
+                            : source
+                        }
+                      >
+                        {source === "Private" ? "Discuss in Interview" : "Code"}
+                      </ExternalLinks>
                     </UtilityList>
                   </BlogCard>
                 </CarouselItem>
               );
             }
           )}
-          {/* </section> */}
         </Slider>
       </GridContainer>
     </Section>

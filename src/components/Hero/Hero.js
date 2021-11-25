@@ -19,6 +19,7 @@ const Hero = (props) => (
       <SectionText>
         I have serious passion for developing full-stack web applications,
         responsive front-ends, and creating intuitive, dynamic user experiences
+        without compromising on functionality.
       </SectionText>
       <Button onClick={() => (window.location = "http://google.com")}>
         Learn More

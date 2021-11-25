@@ -2,42 +2,32 @@ export const projects = [
   {
     title: "HyperLocal E-Commerce Platform",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Responsive E-commerce platform where any shop can upload their products and anyone living in the same city can buy their products and the items would be delivered instantly. Full Stack application, technologies used: React, MongoDB, Express, Node, Tailwind Css, Bootstrap, Along with a lot of custom css and some other technologies.",
     image: "/images/2.png",
-    tags: ["React", "Express", "MongoDB", "NodeJs"],
+    tags: ["React", "Express", "MongoDB", "NodeJs", "Firebase"],
     source: "Private",
     visit: "https://shoupgram.herokuapp.com",
-    id: 1,
+    id: 0,
   },
   {
     title: "Crypto-Graphy",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "Responsive Front-end application, consuming 2 apis from rapid Api. Provides Latest data of CryptoCurrencies including crypto news, data about exchanges, coin price history and Much More",
     image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://github.com/priyanshusingh18/Song-L",
-    visit: "https://github.com/priyanshusingh18/Song-L",
-    id: 0,
+    tags: ["React", "Redux Toolkit", "Ant Design", "External Api"],
+    source: "https://github.com/priyanshusingh18/crypto-graphy",
+    visit: "https://crypto-graphy.netlify.app/",
+    id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "GPT-3",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This is a Responsive Landing Page for a fake Ai Start-up, Ui copied from a figma design with the intent to make pixel perfect website from any given design. The figma design was not responsive, i had to use my imagination to make the page responsive",
+    image: "/images/3.png",
+    tags: ["React", "CSS"],
+    source: "https://github.com/priyanshusingh18/Gpt3-LandingPage",
+    visit: "https://gpt-3-ai.netlify.app",
     id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
   },
 ];
 

@@ -52,6 +52,12 @@ export const CarouselItem = styled.div`
 
 
   ${(props) => (props.active === props.index ? `opacity: 1` : `opacity: 0`)};
+  ${(props) =>
+    props.active === props.index
+      ? `opacity: 1; 
+  z-index: 1000;`
+      : `opacity: 0; 
+      z-index: 1;`};
   @media ${(props) => props.theme.breakpoints.sm} {
   
     background: #0e131f;
@@ -63,7 +69,12 @@ export const CarouselItem = styled.div`
     height: fit-content;
     width: 100%;
 
-    ${(props) => (props.active === props.index ? `opacity: 1` : `opacity: 0`)};
+    ${(props) =>
+      props.active === props.index
+        ? `opacity: 1; 
+    z-index: 1000;`
+        : `opacity: 0; 
+        z-index: 1;`};
 `;
 
 export const CarouselItemTitle = styled.h4`
