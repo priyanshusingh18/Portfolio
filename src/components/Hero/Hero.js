@@ -26,7 +26,7 @@ const Hero = (props) => (
           (window.location = "https://priyanshusingh18.github.io/Resume/")
         }
       >
-        Learn More
+        Resume
       </Button>
     </LeftSection>
   </Section>
