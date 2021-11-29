@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "GPT-3",
     description:
-      "This is a Responsive Landing Page for a fake Ai Start-up, Ui copied from a figma design with the intent to make pixel perfect website from any given design. The figma design was not responsive, i had to use my imagination to make the page responsive",
+      "This is a Responsive Landing Page for a GPT-3 Ai, Ui copied from a figma design with the intent to make pixel perfect website from any given design. The figma design was not responsive, i had to use my imagination to make the page responsive",
     image: "/images/3.png",
     tags: ["React", "CSS"],
     source: "https://github.com/priyanshusingh18/Gpt3-LandingPage",

@@ -21,7 +21,11 @@ const Hero = (props) => (
         responsive front-ends, and creating intuitive, dynamic user experiences
         without compromising on functionality.
       </SectionText>
-      <Button onClick={() => (window.location = "http://google.com")}>
+      <Button
+        onClick={() =>
+          (window.location = "https://priyanshusingh18.github.io/Resume/")
+        }
+      >
         Learn More
       </Button>
     </LeftSection>

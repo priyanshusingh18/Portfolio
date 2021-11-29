@@ -82,7 +82,7 @@ const Technologies = () => (
           <ListTitle>Other Technologies</ListTitle>
           <ListParagraph>
             Also Experienced in <br />
-            TailwindCss, StyledComponents, Sass And Typescript,
+            TailwindCss, StyledComponents, and Sass.
           </ListParagraph>
         </ListContainer>
       </ListItem>
